@@ -1,0 +1,47 @@
+# === General ===
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# === Node / IDE / OS Artifacts ===
+.vscode/
+.idea/
+*.iml
+
+# === Backups & Temporary Files ===
+backups/
+temp_restore/
+*.tar
+*.tar.gz
+*.zip
+*.bak
+*.old
+
+# === Docker ===
+*.pid
+*.sock
+docker-compose.override.yml
+
+# === Environment Files ===
+.env
+.env.local
+config/*.env
+config/*.env.*
+
+# === Python / Bash Artifacts (if utils grow) ===
+__pycache__/
+*.pyc
+
+# === Output or build artifacts ===
+output/
+dist/
+build/
+reports/
+
+# === Misc ===
+*.out
+*.lock
+*.cfg
+*.conf.bak
